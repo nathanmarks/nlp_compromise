@@ -34,6 +34,7 @@ describe('basic pos tag', function() {
 
     ['canadian bacon', ['Demonym', 'Noun']],
     ['canadian dollar', ['Currency']],
+    ['John works in advertising', ['Noun', 'Verb', 'Preposition', 'Noun']]
   ];
   tests.forEach(function(a) {
     it(a[0], function(done) {
